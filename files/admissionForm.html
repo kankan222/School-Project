@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form | KKV</title>
+
+    <link rel="stylesheet" href="/app/css/main.css" />
+    <link rel="stylesheet" href="/app/css/file.css" />
+
+    <!-- Icons Css  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+<body>
+    <section class="boxContainer mt wigin admission">
+        <h2 class="uppercase">registration form</h2>
+        <div class="form">
+            <form action="">
+                <h3 class="uppercase color">General Information</h3>
+                <div class="grid">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="field">
+                        <label for="date">Date of Birth</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="field">
+                        <label for="number">Phone Number</label>
+                        <input type="text" name="number" id="number">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email Id</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="field">
+                        <label for="gender">Gender</label>
+                        <div class="flex1">
+                            <input type="radio" name="gender" id="male" value="male" required>
+                            <span>Male</span>
+                            <input type="radio" name="gender" id="female" value="female" required>
+                            <span>Female</span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="medium">Medium</label>
+                        <input type="text" name="medium" id="medium">
+                    </div>
+                    <div class="field">
+                        <label for="caste">Caste</label>
+                        <input type="text" name="caste" id="caste">
+                    </div>
+                    <div class="field">
+                        <label for="religion">Religion</label>
+                        <input type="text" name="religion" id="religion">
+                    </div>
+                </div>
+                <!-- ----------------------------------------------------- -->
+                <h3 class="uppercase color">Address</h3>
+                <div class="grid">
+                    <div class="field">
+                        <label for="resident">Residential Address</label>
+                        <input type="text" name="resident" id="resident">
+                    </div>
+                    <div class="field">
+                        <label for="district">District</label>
+                        <input type="text" name="district" id="district">
+                    </div>
+                    <div class="field">
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state">
+                    </div>
+                    <div class="field">
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" value="India" readonly>
+                    </div>
+                    <div class="field">
+                        <label for="pin">Pin Code</label>
+                        <input type="text" name="pin" id="pin">
+                    </div>
+                </div>
+                <!-- -------------------------------------------------  -->
+                <h3 class="color uppercase">Class Applied for</h3>
+                    <div class="field">
+                        <label for="stream">Class</label>
+                        <div class="grid1">
+                            <div class="flex1">
+                                <input type="radio" name="class" value="Nursery" required>
+                                <span>Nursery</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="lkg" required>
+                                <span>L.K.G.</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>U.K.G.</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class I</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class II</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class III</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class IV</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class V</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class VI</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class VII</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class VIII</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class IX</span>
+                            </div>
+                            <div class="flex1">
+                                <input type="radio" name="class" value="ukg" required>
+                                <span>Class X</span>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- ------------------------------------------------- -->
+                <h3 class="color uppercase">Upload Your Documents</h3>
+                <div class="grid3">
+                    <div class="field">
+                        <label for="photo">Upload <span class="color">Photo</span></label>
+                        <input type="file" name="photo" id="photo">
+                    </div>
+                    <div class="field">
+                        <label for="photo">Upload <span class="color">Birth Certificate</span></label>
+                        <input type="file" name="photo" id="photo">
+                    </div>
+                </div>
+                <!-- ------------------------------------------------- -->
+                
+                <h3 class="color uppercase">Terms & Conditions</h3>
+                <div class="ter field">
+                    <label class="">Read carefully before filling out the admission form</label>
+                    <label>1. Fill in the details of the form correctly.</label>
+                    <label>2. One must submit proper photos in the required field.</label>
+                    <label>3. Your photo and xerox copies documents are to be submitted offline along with the bill.(Before attending school)</label>
+                    <label>4. If the payment cancels, try again after sometime or <span class="color" onclick="location.href =`/files/contact.html`">Contact Us</span> </label>
+                </div>
+                <div class="field">
+                    <button class="btn uppercase">Pay & Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
