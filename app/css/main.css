@@ -152,6 +152,7 @@ header .btn{
 .cgrid .box p{
   display: flex;
   align-items: center;
+  color: var(--black);
 }
 .cgrid .box p .uil{
   font-size: 30px;
@@ -165,10 +166,16 @@ header .btn{
 }
 .cgrid .box .go-to{
   position: absolute;
-  bottom: 0;
-  right: 15px;
+  bottom: 5px;
+  right: 12px;
   cursor: pointer;
   font-weight: 600;
+  background: var(--primary-color);
+  height: 30px;
+  padding: var(--padding-2);
+  border-radius: var(--border-radius-2);
+  font-size: 12px;
+  color: var(--white);
 }
 .cgrid .box .go-to:hover{
   text-decoration: underline;
@@ -255,7 +262,7 @@ nav ul li a:hover{
 }
 /* ---NAVBAR ENDS HERE---- */
 .slides{
-  margin: 5rem auto 1rem;
+  margin: 7rem auto 1rem;
 }
 .slides img{
   width: 100%;
@@ -293,7 +300,7 @@ nav ul li a:hover{
 
 .description{
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 .description img{
@@ -374,7 +381,7 @@ nav ul li a:hover{
 /* ADMISSION SECTION ENDS HERE  */
 .details{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 .details :nth-child(even of .detBox){
@@ -546,7 +553,7 @@ footer .uil:hover{
   }
   /* SLIDES  */
   .slides{
-    margin: 4rem auto 1rem;
+    margin: 5rem auto 1rem;
   }
   .slides img{
     aspect-ratio: 2/1;
